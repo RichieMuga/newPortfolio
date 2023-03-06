@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ProfileImage from "../public/images/richieImg.jpg";
 Image;
 
 const AboutMEcontent = () => {
@@ -15,6 +16,11 @@ const AboutMEcontent = () => {
             alt="Richie Mugambi"
           ></Image> */}
         <h2>&quot;Hi there👋&quot;</h2>
+        <Image
+          className="profileImage"
+          src={ProfileImage}
+          alt="Richie Mugambi"
+        ></Image>
         <p>
           {" "}
           My name is Richie. I am a passionate <b>fullstack engineer</b> who
@@ -26,8 +32,6 @@ const AboutMEcontent = () => {
           .... i mainly work on my own projects but also develop solutions to
           businesses.
         </p>
-        {/* {(name = "aboutMe")} */}
-        About me
       </section>
     </div>
   );
