@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import ProfileImage from "../public/images/richieImg.jpg";
-Image;
 
 const AboutMEcontent = () => {
   return (

@@ -1,8 +1,8 @@
-import ASSET_MANAGEMENT_SYSTEM from "../public/images/Screenshots/a|m|s.png";
+import ASSET_MANAGEMENT_SYSTEM from "../public/images/Screenshots/a-m-s.png";
 import JOBIFY from "../public/images/Screenshots/jobify.png";
-import JOBIFY_API from "../public/images/Screenshots/jobs-API.png";
-import COMBONI_HEALTH from "../public/images/Screenshots/comboniWebsite.png";
-import LOOP_STUDIO from "../public/images/Screenshots/loopStudio.png";
+import JOBIFY_API from "../public/images/Screenshots/jobs-api.png";
+import COMBONI_HEALTH from "../public/images/Screenshots/comboni-health.png";
+import LOOP_STUDIO from "../public/images/Screenshots/loop-studio.png";
 
 const myWork = [
   {
