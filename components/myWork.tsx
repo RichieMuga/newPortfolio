@@ -24,9 +24,16 @@ const MyWork = () => {
                     <div className="item">
                       <h4>{work.name}</h4>
                       <Image src={work.image} alt=""></Image>
-                      {work.text}
+                      <div>
+                        <p className="languages-text">languages and frameworks</p>
+                        <p className="work-text">{work.text}</p>
+                      </div>
                     </div>
                   </Link>
+                  <div className="repo-website">
+                    <Link href={work.link} >Website</Link>
+                    <Link href={work.github}>Github repo</Link>
+                  </div>
                 </li>
               </div>
             );
