@@ -6,7 +6,6 @@ import AboutMe from "../../components/aboutMe";
 import MySkills from "../../components/mySkills";
 import MyWork from "../../components/myWork";
 import Socials from "../../components/socials";
-import ContactForm from "../../components/form";
 import Footer from "../../components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,7 +25,6 @@ export default function Home() {
         <AboutMe />
         <MySkills />
         <MyWork />
-        <ContactForm />
         <Socials />
         <Footer />
       </main>
