@@ -27,7 +27,7 @@ const HeroSection = () => {
               height="86"
               rx="21.5"
               stroke="white"
-              stroke-width="5"
+              strokeWidth="5"
             />
             <ellipse
               id="Ellipse-1"
